@@ -1,0 +1,188 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+body  {
+	font: 100% Verdana, Arial, Helvetica, sans-serif;
+	background: #a4a5a5;
+	margin: 0; /* it's good practice to zero the margin and padding of the body element to account for differing browser defaults */
+	padding: 0;
+	text-align: center; /* this centers the container in IE 5* browsers. The text is then set to the left aligned default in the #container selector */
+	color: #000000;
+}
+.gaga #container {
+	width: 985px;  /* using 20px less than a full 800px width allows for browser chrome and avoids a horizontal scroll bar */
+	background: #FFFFFF; /* the auto margins (in conjunction with a width) center the page */
+	border: 1px none #999999;
+	text-align: left; /* this overrides the text-align: center on the body element. */
+	height: auto;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #666;
+} 
+.text {
+	font-family: Arial, Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #666;
+}
+
+.text1 {
+	font-family: Arial, Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #3ca4a5;
+}
+.gaga #header { 
+	background: #DDDDDD; 
+	padding: 0 10px 0 20px;  /* this padding matches the left alignment of the elements in the divs that appear beneath it. If an image is used in the #header instead of text, you may want to remove the padding. */
+} 
+.gaga #header h1 {
+	margin: 0; /* zeroing the margin of the last element in the #header div will avoid margin collapse - an unexplainable space between divs. If the div has a border around it, this is not necessary as that also avoids the margin collapse */
+	padding: 10px 0; /* using padding instead of margin will allow you to keep the element away from the edges of the div */
+}
+.gaga #sidebar1 {
+	float: left; /* since this element is floated, a width must be given */
+	width: 200px; /* the actual width of this div, in standards-compliant browsers, or standards mode in Internet Explorer will include the padding and border in addition to the width */
+	background: #EBEBEB; /* the background color will be displayed for the length of the content in the column, but no further */
+	padding: 15px 10px 15px 20px;
+}
+.gaga #mainContent { 
+	margin: 0 0 0 250px; /* the left margin on this div element creates the column down the left side of the page - no matter how much content the sidebar1 div contains, the column space will remain. You can remove this margin if you want the #mainContent div's text to fill the #sidebar1 space when the content in #sidebar1 ends. */
+	padding: 0 20px; /* remember that padding is the space inside the div box and margin is the space outside the div box */
+} 
+.gaga #footer {
+	padding: 0 10px 0 20px;
+	background-color: #a4a5a5;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #FFF;
+	letter-spacing: 0.1em;
+} 
+.gaga #footer p {
+	margin: 0; /* zeroing the margins of the first element in the footer will avoid the possibility of margin collapse - a space between divs */
+	padding: 10px 0; /* padding on this element will create space, just as the the margin would have, without the margin collapse issue */
+}
+.fltrt { /* this class can be used to float an element right in your page. The floated element must precede the element it should be next to on the page. */
+	float: right;
+	margin-left: 8px;
+}
+.fltlft { /* this class can be used to float an element left in your page */
+	float: left;
+	margin-right: 8px;
+}
+.clearfloat { /* this class should be placed on a div or break element and should be the final element before the close of a container that should fully contain a float */
+	clear:both;
+    height:0;
+    font-size: 1px;
+    line-height: 0px;
+}
+
+a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #fff;
+	text-decoration: none;
+}
+
+A:Hover  {color: #999999;
+         outline: none;
+		 }
+		 
+A:Visited  {color: #3ca4a5;
+         outline: none;
+		 }		 
+		 
+.linktext:link {
+	font-family: arial, verdana, geneva, ;
+	font-size:12px;
+	color:#3ca4a5;
+	font-weight: normal;
+	text-decoration: none;
+		}			 
+
+.footer {
+	font-size:14px;
+	background-color: a4a5a5;
+}
+.dot {
+	border-left-width: thin;
+	border-left-style: dotted;
+	border-left-color: #666;
+}
+.home-head{
+	background: url('images/home-head.png') no-repeat center top;
+	height:521px;
+	padding-left:40px;
+	text-align:right;
+}
+.home-head a{
+	font-family: 'Oswald', sans-serif;
+	text-transform:uppercase;
+	line-height:1.4;
+	color:#fff;
+	font-size:17px;
+}
+.home-head #head1{
+	display:block;
+	position:relative;
+	top:14px;
+}
+.home-head #head1 a{
+	margin-right:80px;
+}
+.home-head #head2{
+	display:block;
+	position:relative;
+	top:55px;
+}
+.home-head #head2 a{
+	margin-right:60px;
+}
+.home-head #head3{
+	display:block;
+	position:relative;
+	top:156px;
+}
+.home-head #head3 a{
+	margin-right:45px;	
+}
+.sub-head{
+	background: url('images/sub-header.png') no-repeat center top;
+	height:171px;
+	padding-left:40px;
+	text-align:right;
+}
+.sub-head a{
+	font-family: 'Oswald', sans-serif;
+	text-transform:uppercase;
+	line-height:1.4;
+	color:#fff;
+	font-size:17px;
+}
+.sub-head #head1{
+	display:block;
+	position:relative;
+	top:74px;
+}
+.sub-head #head1 a{
+	margin-right:60px;
+}
+.sub-head #head2{
+	display:block;
+	position:relative;
+	top:100px;
+}
+.sub-head #head2 a{
+	margin-right:60px;
+}
+.home-head a:hover, .sub-head a:hover{
+	color:#ccc;
+}

@@ -1,0 +1,46 @@
+.hiw-banner {width:979px; margin:0 3px; height:auto;}
+
+#news-list {width:650px;float:left;}
+.news-post {width:615px; margin:5px; padding:20px 10px 20px 10px; border-bottom: 1px solid #ccc; height:auto;}
+.news-post .news-text {display:inline-block; width:350px;}
+.news-post h2, .news-post h3 {font-family:'Oswald', sans-serif; color:#506e64; text-transform:uppercase;}
+.news-post h2 {font-size:24px; margin:5px 0;}
+.news-post h3 {margin:5px 0 5px 0;}
+.news-post a, .news-post a:visited,.news-post a:hover {color:#3ca4a5;}
+.news-post a:hover {text-decoration:underline;}
+.news-post p {padding:5px 0;}
+.news-post .image {display:inline-block;float:right;}
+.news-post .image img {max-width:240px; height:auto;}
+.clearfix{*zoom:1}.clearfix:before,.clearfix:after{display:table;line-height:0;content:""}
+
+.lb-data .lb-caption {font-family:'Oswald', sans-serif;text-transform:uppercase;font-size:18px;font-weight:normal;line-height:24px;}
+.lb-data .lb-number {font-size:10px;}
+.lb-outerContainer {background-color:#506e64;}
+
+#facebook-feed {width:315px;float:left; margin: 0px 15px 10px 5px;padding-top:20px;}
+#facebook-feed h2 {font-family:'Oswald', sans-serif; color:#506e64; text-align:right; text-transform:uppercase;margin:5px 0;}
+#facebook-feed h3 {font-family:'Oswald', sans-serif; color:#506e64; text-align:right; text-transform:uppercase;margin:5px 0;}
+#facebook-feed h3 span {font-size:16px;}
+#facebook-feed h2 a, #facebook-feed h2 a:visited, #facebook-feed h2 a:active {font-family:'Oswald', sans-serif; color:#506e64; text-align:right; text-transform:uppercase;margin:5px 0;font-size:18px;font-weight:bold;}
+#facebook-feed h3 a, #facebook-feed h3 a:visited, #facebook-feed h3 a:active {font-family:'Oswald', sans-serif; color:#506e64; text-align:right; text-transform:uppercase;margin:5px 0;font-weight:bold;}
+#facebook-feed h2 a:hover {text-decoration:underline;}
+#facebook-feed h3 a:hover {text-decoration:underline;}
+ul#facebook {list-style-type: none; padding: 0;margin-bottom:0;}
+#facebook li {word-wrap: break-word; display: block; width: 100%; background: #fff; padding: 0; margin-bottom: 20px; border:1px solid #ccc; border-bottom:#FFF 0px solid;}
+#facebook li:last-child {margin-bottom:5px;}
+#facebook li a {color: #3ca4a5; text-decoration: none;}
+#facebook li a:hover {text-decoration: underline;}
+#facebook li .content {padding: 4px 4px 14px 4px; margin: 0;}
+#facebook li .content p {padding: 16px 18px 0 18px; margin: 0;}
+#facebook li .content a {color: #3c6658; font-size:11px;}
+#facebook li div.footer {color: #fff; padding: 6px 10px 8px 22px; text-transform: uppercase;background: #3c6658;text-align:right;}
+#facebook li div.footer a.author {font-family:'Oswald', sans-serif;color: #fff; text-decoration: none; margin: 0;font-size:9px; font-weight:bold;}
+#facebook li div.footer a:hover.author {text-decoration: none;color:#ccc;}
+#facebook li div.footer abbr {color: #fff; padding: 0; margin: 0;}
+#facebook li a.image {display: block; text-align: center; text-decoration: none; margin: 0 10px 0 0;}
+#facebook li div.link {padding: 10px 18px 0 18px;}
+#facebook li div.picture {text-align: right;}
+#facebook li.loading {width: 100%; max-width: 100%; background: none; border-radius: 0; box-shadow: none; text-align: center; padding: 0; margin: 0 0 50px 0;}
+#facebook li p.html_caption a {font-weight:bold;}
+#facebook li div.link a {display:block;}
+#facebook li div.link p, #facebook li div.link i {font-size:10px;}
