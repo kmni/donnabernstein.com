@@ -67,7 +67,7 @@
 <p align="center">&quot;These paintings are my story. Large-scale, lyrical, passionate. Classic equines, modern terms, power and pleasure. There is more to a horse than just a “picture” of him; there is a mythology, a symbolism; an ancient connection we can trace, all of which expresses for us a deep aliveness when we see him. An intimacy with sheer presence. Horses are big energy; And that is what I paint.&quot;</p>
   
 
- <div id="portfolio">
+ <div id="portfolio" data-items-per-page="20">
 
    <a href="#" class="thumbnail">
    <img src="images_urban/th_urban37.jpg" height="75px" width="75px" border="0" />
@@ -421,5 +421,7 @@
   <div id="footer">
 <?php include("footer.html"); ?><!-- end #footer --></div>
 <!-- end #container --></div>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script type="text/javascript" src="javascript/hju.js"></script>
 </body>
 </html>

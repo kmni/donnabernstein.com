@@ -50,3 +50,24 @@ max-height:450px;
 .thumbtoprow{
 	margin-top:15px;
 }
+
+/* 3lancers gallery pagination */
+.cleaner {clear: both; line-height: 0px; font-size: 0px;}
+.clearfix:before,.clearfix:after {content: " "; display: table;}
+.clearfix:after {clear: both;}
+.clearfix {*zoom: 1;}
+.gallery_pagination {width: 375px; text-align: center; margin-top: 10px;}
+.gallery_pagination a {font-size: 14px; line-height: 24px; color: #A5A7A6; text-decoration: underline; padding: 3px 5px; margin: 0 5px;}
+.gallery_pagination a.active,
+.gallery_pagination a:hover {color: #456f61; text-decoration: none;}
+.gallery_pagination a.prev {float: left; text-decoration: none; padding: 0;}
+.gallery_pagination a.next {float: right; text-decoration: none; padding: 0;}
+.gallery_pagination a.prev img,
+.gallery_pagination a.next img {width: 18px; height: 22px; background: #A5A7A6 url(../img/gallery-pagination.png) 5px 3px no-repeat;}
+.gallery_pagination a.next img {background-position: 5px -60px;}
+.gallery_pagination a.prev:hover img {background-position: 5px -18px;}
+.gallery_pagination a.next:hover img {background-position: 5px -81px;}
+.gallery_pagination a.prev.disabled img {background-position: 5px -39px;}
+.gallery_pagination a.next.disabled img {background-position: 5px -102px;}
+.gallery_pagination .disabled {cursor: default;}
+

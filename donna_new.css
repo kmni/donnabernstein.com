@@ -1,5 +1,9 @@
 @charset "UTF-8";
 
+.hidden {display: none;}
+
+
+
 body  {
 	font: 100% Verdana, Arial, Helvetica, sans-serif;
 	background: #a4a5a5;
